@@ -1,0 +1,18 @@
+{
+  "name": "editorjstohtml",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node ./build/main.js"
+  },
+  "dependencies": {
+    "editorjs-html": "^3.4.2",
+    "fastify": "^3.25.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.2",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.4"
+  }
+}
